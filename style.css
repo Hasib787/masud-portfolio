@@ -36,14 +36,22 @@ h1{
 h2{
     font-size: 35px;
 }
+h3{
+    color: rgb(50, 50, 87);
+    font-size: 20px;
+}
 #name{
     margin-top: -47px;
 }
-p{
+.des{
     color: #383535;
     font-size: 14px;
     margin: -17px 132px 0px 0px;
     padding-bottom: 20px; 
+}
+.top-banner{
+    height: 500px;
+    width: 100%;
 }
 .skyblue-highlight{
         color: #892424;
@@ -72,6 +80,11 @@ p{
     margin-top: 12px;
     margin-left: -50px;
 }
+.about-sec{
+    height: 500px;
+    width: 100%;
+
+}
 .about{
     color: rgb(15, 56, 83);
 }
@@ -88,4 +101,63 @@ p{
 }
 .fa-download{
     margin-right: 14px;
+}
+.work-experience{
+    height: 750px;
+    width: 100%;
+    background-color: rgb(233, 247, 244);
+}
+.ex-name{
+    text-align: center;.
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+.ex-name h1{
+    padding-top: 100px;
+
+}
+#lastet{
+
+    color: rgb(192, 52, 52);
+}
+#WP{
+    color: rgb(67, 67, 105);
+}
+.box{
+    float: left;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 65%;
+    background-color: white;
+    padding: 17px;
+    
+}
+#wp-box1{
+    height: 320px;
+    width: 20%;
+    margin-left: 225px;
+}
+#wp-box1 img{
+    width: 100%;
+    
+}
+#wp-box2{
+    height: 320px;
+    width: 20%;
+    margin-left: 25px;
+}
+#wp-box2 img{
+    width: 100%;
+}
+#wp-box3{
+    height: 320px;
+    width: 20%;
+    margin-left: 25px;
+}
+#wp-box3 img{
+    width: 100%;
+}
+.p-box{
+    font-size: 14px;
+    color:rgb(91, 91, 99);
 }
