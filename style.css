@@ -47,7 +47,7 @@ h3{
     color: #383535;
     font-size: 14px;
     margin: -17px 132px 0px 0px;
-    padding-bottom: 20px; 
+    padding-bottom: 40px; 
 }
 .top-banner{
     height: 500px;
@@ -105,6 +105,7 @@ h3{
 .work-experience{
     height: 750px;
     width: 100%;
+    margin-bottom: 100px;
     background-color: rgb(233, 247, 244);
 }
 .ex-name{
@@ -161,3 +162,61 @@ h3{
     font-size: 14px;
     color:rgb(91, 91, 99);
 }
+
+.WI-area {
+    width: 70%;
+    height: 250px;
+    margin: 0px 0px 100px 245px;
+    background-image: url(images/img1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chat-box {
+    display: inline-block;
+    padding: 25px 40px;
+}
+
+.chat-box h3 {
+   font-size: 45px;
+   font-weight: 700;
+   color: #fff;
+   margin: 70px 0px 0px 30px;
+}
+.btnlet{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #e07639, #dd0101);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#chat-btn {
+    float: right;
+    margin: 85px;
+}
+footer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer ul li img{
+    width: 55px;
+}
+footer h4{
+    color: rgb(100, 91, 91);
+    font-size: 20px;
+}
+footer h3{
+    color: rgb(38, 36, 68);
+    font-size: 30px;
+}
+footer ul {
+    list-style-type:none;
+    
+}
+footer li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
