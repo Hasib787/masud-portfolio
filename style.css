@@ -1,4 +1,31 @@
 body{
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+}
+.nav-menu {
+    height: 50px;
+    width: 100%;
+}
+
+.nav-menu .mainmenu {
+    display: inline-block;
+    float: right;
+    margin-right: 75px;
+    margin-top: 10px;
+}
+
+.nav-menu .mainmenu ul li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 32px;
+    position: relative;
+   
+}
+.nav-menu .mainmenu ul li a {
+	font-size: 14px;
+	color: black;
+	font-weight: 600;
+	padding: 42px 0;
+	position: relative;
+    
+    text-decoration: none;
 }
