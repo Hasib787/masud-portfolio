@@ -1,5 +1,6 @@
 body{
-    margin: 0;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 .nav-menu {
     height: 50px;
@@ -7,8 +8,8 @@ body{
 }
 
 .nav-menu .mainmenu {
-    display: inline-block;
     float: right;
+    display: inline-block;
     margin-right: 75px;
     margin-top: 10px;
 }
@@ -26,6 +27,65 @@ body{
 	font-weight: 600;
 	padding: 42px 0;
 	position: relative;
-    
     text-decoration: none;
+}
+h1{
+    font-size: 40px;
+    font-style: bold;
+}
+h2{
+    font-size: 35px;
+}
+#name{
+    margin-top: -47px;
+}
+p{
+    color: #383535;
+    font-size: 14px;
+    margin: -17px 132px 0px 0px;
+    padding-bottom: 20px; 
+}
+.skyblue-highlight{
+        color: #892424;
+}
+.gray-highlight{
+    color: #7e993d;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.link-button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #42c8c8, #011cdd);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.half-width img{
+    width: 100%;
+    margin-top: 12px;
+    margin-left: -50px;
+}
+.about{
+    color: rgb(15, 56, 83);
+}
+#aimg{
+    margin-top: -40px;
+}
+.btn-download{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #a6df20, #044412);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.fa-download{
+    margin-right: 14px;
 }
